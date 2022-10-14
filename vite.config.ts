@@ -6,6 +6,7 @@ import { presetAttributify, presetUno } from 'unocss'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base:'/three',
   server:{
     port:7000,
   },
